@@ -47,7 +47,7 @@ let boxImg
 let boxWidth = 40
 let boxHeight = 80
 let boxX = 700
-let boxY = boardHeight - boxHeight
+let boxY = boardHeight - boxHeight + 10
 
 let boxesArray = []
 let boxSpeed = -3
@@ -236,6 +236,7 @@ function restartGame() {
         restarting = false
     }, 200)
 }
+
 
 
 
